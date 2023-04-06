@@ -1,0 +1,116 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #c89797;
+  padding-bottom: 5px;
+  border: 2px solid #d3d3d326;
+  justify-content: space-between;
+}
+
+.text1 {
+  color: black;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-decoration: solid;
+  padding-left: 80px;
+}
+
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding-right: 45px;
+}
+
+.text2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  flex-flow: row;
+  padding-left: 30px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+}
+
+
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  padding: 108px 0px 140px 49px;
+
+}
+
+.text3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 104px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+
+}
+
+
+#pic1 {
+  display: flex;
+  align-items: center;
+  border: 2px solid gray;
+  border-radius: 14px;
+  /* box-shadow: 16px 14px lightgrey; */
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+}
+
+.button1 a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.button1 a:hover {
+  background-color: black;
+  color: red;
+  box-shadow: 4px 4px gray;
+}
+
+.detail {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: bold;
+  padding-top: 13px;
+  align-items: center;
+  background-color: crimson;
+  padding-bottom: 12px;
+}

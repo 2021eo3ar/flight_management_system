@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    padding-bottom: 5px;
+    border: 2px solid #d3d3d326;
+    justify-content: space-between;
+    box-shadow: 4px 4px black ;
+  
+  }
+   .text2 a {
+    text-decoration: none;
+    color: black;
+  
+  }
+  body::before{
+      opacity: 0.8;
+      content: "";
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      position: absolute;
+      top: 0px;
+      background: url("/image/ticket_bg.jpg") no-repeat center center;
+  }
+  
+  .text1{
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: solid;
+    padding-left: 80px;
+  }
+  
+  #nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-right: 45px;
+  }
+  
+  .text2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    flex-flow: row;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: medium;
+  }
+  form{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  flex-direction: column;
+  align-items: center;
+  }
+  input,select,textarea{
+    width: 60%;
+    padding: 12px 20px;
+    display: block;
+    border:none;
+    background-color: transparent;
+  }
+  input::placeholder{
+    color: black;
+    font-weight: bold;
+    
+  }
+  
+  #btn{
+    margin-top: 15px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 6px;
+  }
+  #btn:hover{
+    background-color: black;
+    color: red;
+    box-shadow: 4px 4px gray;
+  }
+  #name{
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
